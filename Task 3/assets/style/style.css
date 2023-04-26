@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(195, 195, 195);
+}
+header{
+    border-bottom: 1px solid rgb(213, 213, 213);
+    background-color: #03001C;
+}
+.dark-header{
+    border-bottom: 1px solid black;
+}
+nav{
+    height: 60px;
+}
+nav .container, nav .row{
+    height: 100%;
+}
+main{
+    background-color: #03001C;
+    padding-top: 50px;
+    
+}
+.mode-wrapper{
+    cursor: pointer;
+    user-select: none;
+}
+.input-wrapper input, .select-wrapper select{
+    padding: 15px 20px;
+    box-shadow: rgba(177, 177, 177, 0.2) 0px 8px 24px;
+    border: none;
+}
+.select-wrapper .form-select option{
+    color: #03001C;
+}
+.cards-row{
+    margin-top: 40px;
+}
+.cards-row .card{
+    border: none;
+    box-shadow: rgba(233, 233, 233, 0.317) 0px 8px 24px;
+    margin-bottom: 24px;
+    background-color: #03001C;
+}
+.card-body{
+    height: 200px;
+}
+.card-data p{
+    margin-bottom: 5px;
+}
